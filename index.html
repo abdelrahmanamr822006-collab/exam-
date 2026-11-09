@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="test/index.css">
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white position-fixed ">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- Logo + Menu -->
+            <div class="d-flex align-items-center flex-grow-1">
+
+                <!-- Logo -->
+                <a class="navbar-brand title text-black me-4" href="#">
+                    <i class="fa-solid fa-cube rounded-2"></i> Clarity
+                </a>
+
+                <!-- زر الموبايل على اليمين -->
+
+                <button class="navbar-toggler ms-auto lala" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sec1">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#sec2" role="button" data-bs-toggle="dropdown">
+                                Services
+                            </a>
+
+
+                            <!-- محتوى الـ mega menu زي ما هو -->
+
+                            <div class="dropdown-menu mega-menu p-4">
+                                <div class="mega-container container-fluid py-4">
+                                    <div class="row">
+
+                                        <!-- Development -->
+                                        <div class="col-md-3">
+                                            <h6 class="mega-title">DEVELOPMENT</h6>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-code icon me-3"></i>
+                                                <div>
+                                                    <strong>Web Development</strong>
+                                                    <p class="text-muted m-0">Custom web applications & websites</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-mobile icon me-3"></i>
+                                                <div>
+                                                    <strong>Mobile Apps</strong>
+                                                    <p class="text-muted m-0">iOS & Android native apps</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-pen-ruler icon me-3"></i>
+                                                <div>
+                                                    <strong>UI/UX Design</strong>
+                                                    <p class="text-muted m-0">User-centered design solutions</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Infrastructure & AI -->
+                                        <div class="col-md-3">
+                                            <h6 class="mega-title">INFRASTRUCTURE & AI</h6>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-cloud icon me-3"></i>
+                                                <div>
+                                                    <strong>Cloud Solutions</strong>
+                                                    <p class="text-muted m-0">Scalable cloud infrastructure</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-robot icon me-3"></i>
+                                                <div>
+                                                    <strong>AI & Machine Learning</strong>
+                                                    <p class="text-muted m-0">Intelligent automation solutions</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-database icon me-3"></i>
+                                                <div>
+                                                    <strong>Data Solutions</strong>
+                                                    <p class="text-muted m-0">Database & analytics platforms</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Marketing -->
+                                        <div class="col-md-3">
+                                            <h6 class="mega-title">MARKETING</h6>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-chart-line icon me-3"></i>
+                                                <div>
+                                                    <strong>Digital Marketing</strong>
+                                                    <p class="text-muted m-0">SEO, SEM & social media</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-item d-flex mb-3">
+                                                <i class="fa-solid fa-bullhorn icon me-3"></i>
+                                                <div>
+                                                    <strong>Content Strategy</strong>
+                                                    <p class="text-muted m-0">Engaging content creation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Help Box -->
+                                        <div class="col-md-3">
+                                            <div class="help-box p-4">
+                                                <h6><strong>Need help choosing?</strong></h6>
+                                                <p class="text-muted">Talk to our experts to find the perfect
+                                                    solution for your business.</p>
+                                                <a href="#" class="contact-link">Contact us →</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=" #sec3">Technology</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=" #sec4">Testimonials</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=" #sec5">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=" #sec6">Contact</a>
+                        </li>
+                        <!-- Sign in -->
+                        <div class="sign d-flex align-items-center gap-3">
+                            <span>sign in</span>
+                            <button>Get Strat</button>
+                        </div>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <main class="mt-5">
+        <section class="sec1 w-100 " id="sec1">
+            <div class="home container d-flex justify-content-between align-items-center vh-100 gap-4">
+                <div class="left ">
+                    <br>
+                    <p class="par"><i class="fa-solid fa-rocket"></i> Transforming Digital Experiences</p>
+                    <br>
+                    <h1> <span>Digital Solutions <br>That Drive </span><br> <span class="browne"></span>Growth</h1>
+                    <br>
+                    <p class="dis">We craft innovative digital experiences that transform businesses and <br> accelerate
+                        growth. From cutting-edge web applications to mobile <br> solutions, we deliver technology that
+                        makes a difference.</p>
+                    <div class="bottom">
+
+                        <button class="start me-4">Start Your Project <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                        </button>
+                        <button class="watch"> Watch Demo <i class="fa-solid fa-play ms-2"></i></button>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="avg d-flex align-items-center justify-content-start gap-5 text-center">
+                        <div>
+                            <span class="d-block avge">500+</span>
+                            <span class="d-block">Projects Delivered+</span>
+                        </div>
+                        <div>
+                            <span class="d-block avge">98%</span>
+                            <span class="d-block">Client Satisfaction</span>
+                        </div>
+                        <div>
+                            <span class="d-block avge">24/7</span>
+                            <span class="d-block">Support</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right ">
+
+                    <div class="custom-box">
+
+                        <!-- الخلفية اللي ورا -->
+                        <div class="bg-layer"></div>
+
+                        <div class="hawya">
+                            <!-- الأيقونة فوق -->
+                            <div class="icon top-right">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <img src="hero-img-sGwnWbTh.png" class="main-image">
+                        </div>
+                        <!-- الصورة -->
+
+                        <!-- الأيقونة تحت -->
+                        <div class="icon bottom-left">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+        <br>
+        <br>
+        <br>
+        <sesction class="sec2">
+            <div class="container text-center" id="sec2">
+                <span class="titlee"><i class="fa-solid fa-gears"></i> Our Services</span>
+                <br>
+                <br>
+                <h2 class="mb-4">
+                    <p>Comprehensive Digital Solutions</p>
+                </h2>
+                <p class="discript mx-auto mb-5">From concept to deployment, we provide end-to-end digital services <br>
+                    transform your business and engage your customers.</p>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card h-100 p-4 text-start">
+                            <i
+                                class="fa-solid fa-code fa-2x mb-3 d-flex justify-content-center align-item-center  icons"></i>
+                            <h5 class="mb-3">Web Development</h5>
+                            <p>Custom web applications built with <br> cutting-edge technologies. Responsive,<br>
+                                scalable, and optimized for performance</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>React & Next.js Development</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>E-commerce Solutions</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>Progressive Web Apps</p>
+                            <div class="button">Learn More <i class="fa-solid fa-arrow-right-long ms-2 logo "></i></div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card h-100 p-4 text-start">
+                            <i
+                                class="fa-solid fa-mobile-screen fa-2x mb-3 d-flex justify-content-center align-item-center icons icons-1"></i>
+                            <h5 class="mb-3">Mobile Applications</h5>
+                            <p>Native and cross-platform mobile apps <br> that deliver exceptional user experiences <br>
+                                across all devices.</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>iOS & Android Development</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>React Native & Flutter</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>App Store Optimization</p>
+                            <div class="button">Learn More <i class="fa-solid fa-arrow-right-long ms-2 logo "></i></div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card h-100 p-4 text-start">
+                            <i
+                                class="fa-solid fa-cloud fa-2x mb-3 d-flex justify-content-center align-item-center  icons"></i>
+                            <h5 class="mb-3">Cloud Solutions</h5>
+                            <p>Scalable cloud infrastructure and services that grow with your <br> business needs and
+                                ensure maximum uptime.</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>AWS & Azure Integration</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>DevOps & CI/CD</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>Microservices Architecture</p>
+                            <div class="button">Learn More <i class="fa-solid fa-arrow-right-long ms-2 logo "></i></div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card h-100 p-4 text-start">
+                            <i
+                                class="fa-solid fa-brain fa-2x mb-3 d-flex justify-content-center align-item-center icons icons-2"></i>
+                            <h5 class="mb-3">AI & Machine Learning</h5>
+                            <p>Custom web applications built with <br> cutting-edge technologies. Responsive,<br>
+                                scalable, and optimized for performance</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>React & Next.js Development</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>E-commerce Solutions</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>Progressive Web Apps</p>
+                            <div class="button">Learn More <i class="fa-solid fa-arrow-right-long ms-2 logo "></i></div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card h-100 p-4 text-start">
+                            <i
+                                class="fa-solid fa-chart-line fa-2x mb-3 d-flex justify-content-center align-item-center  icons icons-3"></i>
+                            <h5 class="mb-3">Digital Marketing</h5>
+                            <p>Custom web applications built with <br> cutting-edge technologies. Responsive,<br>
+                                scalable, and optimized for performance</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>React & Next.js Development</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>E-commerce Solutions</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>Progressive Web Apps</p>
+                            <div class="button">Learn More <i class="fa-solid fa-arrow-right-long ms-2 logo "></i></div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card h-100 p-4 text-start">
+                            <i
+                                class="fa-solid fa-palette fa-2x mb-3 d-flex justify-content-center align-item-center  icons icons-4"></i>
+                            <h5 class="mb-3">UI/UX Design</h5>
+                            <p>Custom web applications built with <br> cutting-edge technologies. Responsive,<br>
+                                scalable, and optimized for performance</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>React & Next.js Development</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>E-commerce Solutions</p>
+                            <p><i class="fa-solid fa-check me-2 logo"></i>Progressive Web Apps</p>
+                            <div class="button">Learn More <i class="fa-solid fa-arrow-right-long ms-2 logo "></i></div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </sesction>
+
+
+
+
+
+        <br>
+        <br>
+
+        <section class="sec3" id="sec3">
+
+            <div class="container  ">
+                <br>
+                <br>
+                <h2 class="mb-4 text-center">
+                    <p>Cutting-Edge Technologies</p>
+                </h2>
+                <p class="discript mx-auto mb-5 text-center">We leverage the latest technologies and frameworks to
+                    build scalable, secure, <br> and high-performance solutions.
+
+
+                </p>
+
+                <!-- Tabs -->
+                <ul class="nav nav-tabs mb-4 taps d-flex justify-content-center " id="myTab">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#frontend"><i
+                                class="fa-solid fa-code"></i> Frontend</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#backend"><i
+                                class="fa-solid fa-book"></i> Backend</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#mobile"><i
+                                class="fa-solid fa-mobile-screen"></i> Mobile</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#cloud"><i
+                                class="fa-solid fa-cloud"></i> Cloud & DevOps</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#data"> <i
+                                class="fa-solid fa-layer-group"></i>Database</button>
+                    </li>
+                </ul>
+
+                <!-- Tabs Content -->
+                <div class="tab-content gap-0">
+
+                    <!-- =============== FRONTEND =============== -->
+                    <div class="tab-pane fade  show active" id="frontend">
+                        <h2 class="text-center title ">Frontend Technologies</h2>
+                        <p class="text-center ">Modern frameworks and libraries for creating exceptional user
+                            interfaces
+                        </p>
+                        <br>
+                        <br>
+
+                        <div class="row g-4">
+                            <!-- PostgreSQL -->
+                            <div class="col-sm-12 col-md-6 col-lg-4 ">
+                                <div class="cards tech-card1 bg-postgres">
+                                    <i
+                                        class="fa-solid fa-atom p-1 rounded-2 fa-2x  icon-1 d-flex justify-content-center align-items-center"></i>
+
+                                    <h5>React.js </h5>
+                                    <p class="text-muted">Component-based library for building <br> interactive user
+                                        interfaces
+                                        with virtual <br> DOM</p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JSX</span>
+                                        <span class="tag-1">Hooks</span>
+                                        <span class="tag-1">Redux</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card2 bg-postgres pt-4">
+                                    <div class="next  bg-black rounded-2xl flex items-center justify-center rounded-3">
+
+                                        <span class=>Next</span>
+                                    </div>
+
+                                    <h5>Next.js </h5>
+                                    <p class="text-muted">Full-stack React framework with <br> server-side rendering
+                                        and
+                                        static <br> generation</p>
+                                    <div class="mejor2 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card3 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-viacoin rounded-3 d-flex justify-content-center align-items-center  "></i>
+                                    <h5>Vue.js</h5>
+                                    <p class="text-muted">Progressive framework for building <br>user interfaces
+                                        with
+                                        excellent <br> developer experience</p>
+                                    <div class="mejor3 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Composition API</span>
+                                        <span class="tag-1">Vuex</span>
+                                        <span class="tag-1">Nuxt</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card4 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-angular d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Angular </h5>
+                                    <p class="text-muted">
+                                        Comprehensive platform for building <br> scalable web applications
+                                    </p>
+                                    <div class="mejor4 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card5 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-css3-alt d-flex justify-content-center align-items-center rounded-3 "></i>
+
+                                    <h5>Next.js </h5>
+                                    <p class="text-muted">
+                                        Utility-first CSS framework for rapid UI <br> development</p>
+                                    <div class="mejor5 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JIT</span>
+                                        <span class="tag-1">Components</span>
+                                        <span class="tag-1">Responsive</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card6 bg-postgres pt-4">
+                                    <i
+                                        class="fa-solid fa-bolt d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Vite </h5>
+                                    <p class="text-muted">Next generation frontend tooling with <br> lightning fast
+                                        builds
+                                    </p>
+                                    <div class="mejor6 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- =============== BACKEND =============== -->
+                    <div class="tab-pane fade " id="backend">
+                        <h2 class="text-center title ">Backend Technologies</h2>
+                        <p class="text-center ">Robust server-side technologies for scalable and secure applications
+                        </p>
+                        <br>
+                        <br>
+
+                        <div class="row g-4">
+                            <!-- PostgreSQL -->
+                            <div class="col-md-4">
+                                <div class="cards tech-card3 bg-postgres">
+                                    <i
+                                        class="fa-brands fa-node-js d-flex justify-content-center align-items-center"></i>
+                                    <h5>Node.js </h5>
+                                    <p class="text-muted">
+                                        JavaScript runtime built on <br>Chrome's V8 engine for server-side <br>
+                                        development
+
+
+                                    </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Express.js</span>
+                                        <span class="tag-1">NPM</span>
+                                        <span class="tag-1">TypeScript</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card1 bg-postgres pt-4">
+
+                                    <i
+                                        class="fa-brands fa-python d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Python </h5>
+                                    <p class="text-muted">
+                                        Versatile programming language <br> with powerful frameworks for web <br>
+                                        development </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Django</span>
+                                        <span class="tag-1">FastAPI</span>
+                                        <span class="tag-1">Flask</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card7 bg-postgres pt-4">
+
+                                    <div class="rounded-3 text-white go">
+                                        <span class=>Go</span>
+                                    </div>
+                                    <h5>Golang </h5>
+                                    <p class="text-muted">
+                                        Fast, statically typed language <br>designed for modern software <br>
+                                        development
+                                    </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Gin</span>
+                                        <span class="tag-1">Goroutines</span>
+                                        <span class="tag-1">Microservices</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card6 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-java d-flex justify-content-center align-items-center text-white"></i>
+
+                                    </i>
+                                    <h5>Java </h5>
+                                    <p class="text-muted">
+                                        Enterprise-grade platform with <br> robust frameworks for large-scale <br>
+                                        applications </p>
+                                    <div class="mejor6 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Spring Boot</span>
+                                        <span class="tag-1">Hibernate</span>
+                                        <span class="tag-1">Maven</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card8 bg-postgres pt-4">
+                                    <div class="net">
+                                        <span>.Net</span>
+                                    </div>
+                                    <h5>.Net Core </h5>
+                                    <p class="text-muted">
+                                        Utility-first CSS framework for rapid UI <br> development</p>
+                                    <div class="mejor8 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JIT</span>
+                                        <span class="tag-1">Components</span>
+                                        <span class="tag-1">Responsive</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card9 bg-postgres pt-4">
+                                    <i
+                                        class="fa-solid fa-gem d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Vite </h5>
+                                    <p class="text-muted">Next generation frontend tooling with <br> lightning fast
+                                        builds
+                                    </p>
+                                    <div class="mejor9 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- =============== MOBILE =============== -->
+                    <div class="tab-pane fade " id="mobile">
+                        <h2 class="text-center title ">Mobile Technologies</h2>
+                        <p class="text-center ">Native and cross-platform solutions for iOS and Android development
+                        </p>
+                        <br>
+                        <br>
+
+                        <div class="row g-4">
+                            <!-- PostgreSQL -->
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card9 bg-postgres pt-4">
+                                    <i
+                                        class="fa-solid fa-gem d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Vite </h5>
+                                    <p class="text-muted">Next generation frontend tooling with <br> lightning fast
+                                        builds
+                                    </p>
+                                    <div class="mejor9 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card8 bg-postgres pt-4">
+                                    <div class="net">
+                                        <span>.Net</span>
+                                    </div>
+                                    <h5>.Net Core </h5>
+                                    <p class="text-muted">
+                                        Utility-first CSS framework for rapid UI <br> development</p>
+                                    <div class="mejor8 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JIT</span>
+                                        <span class="tag-1">Components</span>
+                                        <span class="tag-1">Responsive</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card6 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-java d-flex justify-content-center align-items-center text-white"></i>
+
+                                    </i>
+                                    <h5>Java </h5>
+                                    <p class="text-muted">
+                                        Enterprise-grade platform with <br> robust frameworks for large-scale <br>
+                                        applications </p>
+                                    <div class="mejor6 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Spring Boot</span>
+                                        <span class="tag-1">Hibernate</span>
+                                        <span class="tag-1">Maven</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card3 bg-postgres">
+                                    <i
+                                        class="fa-brands fa-node-js d-flex justify-content-center align-items-center"></i>
+                                    <h5>Node.js </h5>
+                                    <p class="text-muted">
+                                        JavaScript runtime built on <br>Chrome's V8 engine for server-side <br>
+                                        development
+
+
+                                    </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Express.js</span>
+                                        <span class="tag-1">NPM</span>
+                                        <span class="tag-1">TypeScript</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card1 bg-postgres pt-4">
+
+                                    <i
+                                        class="fa-brands fa-python d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Python </h5>
+                                    <p class="text-muted">
+                                        Versatile programming language <br> with powerful frameworks for web <br>
+                                        development </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Django</span>
+                                        <span class="tag-1">FastAPI</span>
+                                        <span class="tag-1">Flask</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card7 bg-postgres pt-4">
+
+                                    <div class="rounded-3 text-white go">
+                                        <span class=>Go</span>
+                                    </div>
+                                    <h5>Golang </h5>
+                                    <p class="text-muted">
+                                        Fast, statically typed language <br>designed for modern software <br>
+                                        development
+                                    </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Gin</span>
+                                        <span class="tag-1">Goroutines</span>
+                                        <span class="tag-1">Microservices</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- =============== cloud =============== -->
+                    <div class="tab-pane fade " id="cloud">
+                        <h2 class="text-center title ">Cloud & DevOps</h2>
+                        <p class="text-center ">Modern cloud infrastructure and deployment technologies</p>
+                        <br>
+                        <br>
+                        <div class="row g-4">
+                            <!-- PostgreSQL -->
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card8 bg-postgres pt-4">
+                                    <div class="net">
+                                        <span>.Net</span>
+                                    </div>
+                                    <h5>.Net Core </h5>
+                                    <p class="text-muted">
+                                        Utility-first CSS framework for rapid UI <br> development</p>
+                                    <div class="mejor8 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JIT</span>
+                                        <span class="tag-1">Components</span>
+                                        <span class="tag-1">Responsive</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card7 bg-postgres pt-4">
+
+                                    <div class="rounded-3 text-white go">
+                                        <span class=>Go</span>
+                                    </div>
+                                    <h5>Golang </h5>
+                                    <p class="text-muted">
+                                        Fast, statically typed language <br>designed for modern software <br>
+                                        development
+                                    </p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Gin</span>
+                                        <span class="tag-1">Goroutines</span>
+                                        <span class="tag-1">Microservices</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card9 bg-postgres pt-4">
+                                    <i
+                                        class="fa-solid fa-gem d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Vite </h5>
+                                    <p class="text-muted">Next generation frontend tooling with <br> lightning fast
+                                        builds
+                                    </p>
+                                    <div class="mejor9 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card4 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-angular d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Angular </h5>
+                                    <p class="text-muted">
+                                        Comprehensive platform for building <br> scalable web applications
+                                    </p>
+                                    <div class="mejor4 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card1 bg-postgres">
+                                    <i
+                                        class="fa-solid fa-atom p-1 rounded-2 fa-2x  icon-1 d-flex justify-content-center align-items-center"></i>
+
+                                    <h5>React.js </h5>
+                                    <p class="text-muted">Component-based library for building <br> interactive user
+                                        interfaces
+                                        with virtual <br> DOM</p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JSX</span>
+                                        <span class="tag-1">Hooks</span>
+                                        <span class="tag-1">Redux</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card6 bg-postgres pt-4">
+                                    <i
+                                        class="fa-solid fa-bolt d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Vite </h5>
+                                    <p class="text-muted">Next generation frontend tooling with <br> lightning fast
+                                        builds
+                                    </p>
+                                    <div class="mejor6 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- =============== database =============== -->
+
+                    <div class="tab-pane fade " id="data">
+                        <h2 class="text-center title ">Database Technologies</h2>
+                        <p class="text-center ">Robust data storage solutions for modern applications</p>
+                        <br>
+                        <br>
+                        <div class="row g-4">
+                            <!-- PostgreSQL -->
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card1 bg-postgres">
+                                    <i
+                                        class="fa-solid fa-atom p-1 rounded-2 fa-2x  icon-1  d-flex justify-content-center align-items-center"></i>
+
+                                    <h5>React.js </h5>
+                                    <p class="text-muted">Component-based library for building <br> interactive user
+                                        interfaces
+                                        with virtual <br> DOM</p>
+                                    <div class="mejor1 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JSX</span>
+                                        <span class="tag-1">Hooks</span>
+                                        <span class="tag-1">Redux</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card2 bg-postgres pt-4">
+                                    <div class="next  bg-black rounded-2xl flex items-center justify-center rounded-3">
+
+                                        <span class=>Next</span>
+                                    </div>
+
+                                    <h5>Next.js </h5>
+                                    <p class="text-muted">Full-stack React framework with <br> server-side rendering
+                                        and
+                                        static <br> generation</p>
+                                    <div class="mejor2 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card3 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-viacoin rounded-3 d-flex justify-content-center align-items-center  "></i>
+                                    <h5>Vue.js</h5>
+                                    <p class="text-muted">Progressive framework for building <br>user interfaces
+                                        with
+                                        excellent <br> developer experience</p>
+                                    <div class="mejor3 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">Composition API</span>
+                                        <span class="tag-1">Vuex</span>
+                                        <span class="tag-1">Nuxt</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card4 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-angular d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Angular </h5>
+                                    <p class="text-muted">
+                                        Comprehensive platform for building <br> scalable web applications
+                                    </p>
+                                    <div class="mejor4 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card5 bg-postgres pt-4">
+                                    <i
+                                        class="fa-brands fa-css3-alt d-flex justify-content-center align-items-center rounded-3 "></i>
+
+                                    <h5>Next.js </h5>
+                                    <p class="text-muted">
+                                        Utility-first CSS framework for rapid UI <br> development</p>
+                                    <div class="mejor5 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">JIT</span>
+                                        <span class="tag-1">Components</span>
+                                        <span class="tag-1">Responsive</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="cards tech-card6 bg-postgres pt-4">
+                                    <i
+                                        class="fa-solid fa-bolt d-flex justify-content-center align-items-center rounded-3"></i>
+                                    <h5>Vite </h5>
+                                    <p class="text-muted">Next generation frontend tooling with <br> lightning fast
+                                        builds
+                                    </p>
+                                    <div class="mejor6 d-flex justify-content-start gap-4 align-items-center flex-wrap">
+                                        <span class="tag-1">SRA</span>
+                                        <span class="tag-1">DDG</span>
+                                        <span class="tag-1">API Routes</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <br>
+        <br>
+
+        <section class="sec4" id="sec4">
+
+            <div class="container text-center">
+                <br>
+                <br>
+                <br>
+                <span class="titlee"><i class="fa-solid fa-heart"></i> Client Testimonials</span>
+                <br>
+                <br>
+                <h2 class="mb-4">
+                    <p>What Our Clients Say</p>
+                </h2>
+                <p class="discript mx-auto mb-5">Don't just take our word for it. Here's what our clients have to
+                    say about working <br>with us.
+
+                </p>
+
+                <div id="carouselExampleIndicators" class="carousel slide cards" data-bs-ride="carousel"
+                    data-bs-interval="2500" data-bs-wrap="true">
+                    <div class="carousel-indicators  circiles">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active botton" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="botton" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            class="botton" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            class="botton" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner container">
+
+
+                        <div class="carousel-item active">
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="point d-flex justify-content-start align-items-center gap-3">
+                                    <div class="qoute d-flex justify-content-center align-items-center rounded-3">
+                                        <i class="fa-solid fa-quote-left "></i>
+                                    </div>
+                                    <div class="text">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <span class="d-block">5.0 Rating</span>
+                                    </div>
+                                </div>
+                                <span class="veryfied"><i class="fa-solid fa-check text-danger text-white  "></i>
+                                    Verified</span>
+                            </div>
+                            <br>
+                            <p class="grays">"Working with Clarity was a game-changer. Their mobile banking app
+                                exceeded
+                                all our
+                                expectations and has processed over $1 billion in transactions."</p>
+                            <hr>
+
+                            <div class="down d-flex justify-content-between gap-2 align-items-center ">
+                                <div class="lhs d-flex justify-content-start gap-2 align-items-center ">
+
+                                    <div class="left">
+                                        <div class="position-relative photo">
+                                            <img src="imeg/avatar-2 (1).jpg" alt="">
+                                            <div class="true ">
+                                                <i class="fa-solid fa-check text-danger text-white   "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <h4 class="h6">joo Rodriguez</h4>
+                                        <span class="d-block">Director, MedCare</span>
+                                        <span> <i class="fa-brands fa-linkedin" style="color: #EA580C;"></i>
+                                            Verified on
+                                            LinkedIn</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="rhs">
+                                    <h3>0%</h3>
+                                    <span>Varified</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--  slid2 -->
+
+                        <div class="carousel-item ">
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="point d-flex justify-content-start align-items-center gap-3">
+                                    <div class="qoute d-flex justify-content-center align-items-center rounded-3">
+                                        <i class="fa-solid fa-quote-left "></i>
+                                    </div>
+                                    <div class="text">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <span class="d-block">5.0 Rating</span>
+                                    </div>
+                                </div>
+                                <span class="veryfied"><i class="fa-solid fa-check text-danger text-white  "></i>
+                                    Verified</span>
+                            </div>
+                            <br>
+                            <p class="grays">"Working with Clarity was a game-changer. Their mobile banking app
+                                exceeded
+                                all our
+                                expectations and has processed over $1 billion in transactions."</p>
+                            <hr>
+
+                            <div class="down d-flex justify-content-between gap-2 align-items-center ">
+                                <div class="lhs d-flex justify-content-start gap-2 align-items-center ">
+
+                                    <div class="left">
+                                        <div class="position-relative photo">
+                                            <img src="imeg/avatar-3 (1).jpg" alt="">
+                                            <div class="true ">
+                                                <i class="fa-solid fa-check text-danger text-white   "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <h4 class="h6">Farid Rodriguez</h4>
+                                        <span class="d-block">Director, MedCare</span>
+                                        <span> <i class="fa-brands fa-linkedin" style="color: #EA580C;"></i>
+                                            Verified on
+                                            LinkedIn</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="rhs">
+                                    <h3>100K+</h3>
+                                    <span>Grown</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!--  slid3 -->
+
+                        <div class="carousel-item ">
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="point d-flex justify-content-start align-items-center gap-3">
+                                    <div class="qoute d-flex justify-content-center align-items-center rounded-3">
+                                        <i class="fa-solid fa-quote-left "></i>
+                                    </div>
+                                    <div class="text">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <span class="d-block">5.0 Rating</span>
+                                    </div>
+                                </div>
+                                <span class="veryfied"><i class="fa-solid fa-check text-danger text-white  "></i>
+                                    Verified</span>
+                            </div>
+                            <br>
+                            <p class="grays">"Working with Clarity was a game-changer. Their mobile banking app
+                                exceeded
+                                all our
+                                expectations and has processed over $1 billion in transactions."</p>
+                            <hr>
+
+                            <div class="down d-flex justify-content-between gap-2 align-items-center ">
+                                <div class="lhs d-flex justify-content-start gap-2 align-items-center ">
+
+                                    <div class="left">
+                                        <div class="position-relative photo">
+                                            <img src="imeg/avatar-1 (4).jpg" alt="">
+                                            <div class="true ">
+                                                <i class="fa-solid fa-check text-danger text-white   "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <h4 class="h6">Marcus Rodriguez</h4>
+                                        <span class="d-block">Director, MedCare</span>
+                                        <span> <i class="fa-brands fa-linkedin" style="color: #EA580C;"></i>
+                                            Verified on
+                                            LinkedIn</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="rhs">
+                                    <h3>300%</h3>
+                                    <span>Grown</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!--  slid4 -->
+                        <div class="carousel-item ">
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div class="point d-flex justify-content-start align-items-center gap-3">
+                                    <div class="qoute d-flex justify-content-center align-items-center rounded-3">
+                                        <i class="fa-solid fa-quote-left "></i>
+                                    </div>
+                                    <div class="text">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <span class="d-block">5.0 Rating</span>
+                                    </div>
+                                </div>
+                                <span class="veryfied"><i class="fa-solid fa-check text-danger text-white  "></i>
+                                    Verified</span>
+                            </div>
+                            <br>
+                            <p class="grays">"Working with Clarity was a game-changer. Their mobile banking app
+                                exceeded
+                                all our
+                                expectations and has processed over $1 billion in transactions."</p>
+                            <hr>
+
+                            <div class="down d-flex justify-content-between gap-2 align-items-center ">
+                                <div class="lhs d-flex justify-content-start gap-2 align-items-center ">
+
+                                    <div class="left">
+                                        <div class="position-relative photo">
+                                            <img src="imeg/avatar-4.avif"">
+                                    <div class=" true ">
+                                        <i class=" fa-solid fa-check text-danger text-white "></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" right">
+                                            <h4 class="h6">Marcus Rodriguez</h4>
+                                            <span class="d-block">Director, MedCare</span>
+                                            <span> <i class="fa-brands fa-linkedin" style="color: #EA580C;"></i>
+                                                Verified on
+                                                LinkedIn</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="rhs">
+                                        <h3>10X</h3>
+                                        <span>Grown</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+        </section>
+
+        <!-- \//////////////////////sec5//////////////////////////// -->
+
+        <section class="sec5" id="sec5">
+            <div class="accordion container" id="accordionExample ">
+                <br>
+                <br>
+                <br>
+                <span class="titlee text-center"><i class="fa-solid fa-question" style="color: #e8570c;"></i>
+                    FAQ</span>
+                <br>
+
+                <h2 class="mb-4 text-center">
+                    <p>Frequently Asked Questions</p>
+                </h2>
+                <p class="discript mx-auto mb-5  text-center">Find answers to common questions about our services,
+                    process, and how we <br> can help transform your business.
+
+                </p>
+                <div class="w-75 m-auto">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What Services does Clarity offer?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>
+                                    <p>We offer a comprehensive range of digital services including web development,
+                                        mobile
+                                        applications, cloud solutions, AI & machine learning, digital marketing, and
+                                        UI/UX
+                                        design. Our team specializes in creating custom solutions tailored to your
+                                        specific
+                                        business needs, from initial concept through to deployment and ongoing
+                                        support.</p>
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How long does a typical take?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong> Project timelines vary based on complexity and scope. A simple website
+                                    might take
+                                    4-6 <br> weeks, while a complex web application or mobile app could take 3-6
+                                    months. We
+                                    <br> provide detailed project timelines during our initial consultation and keep
+                                    you
+                                    updated <br> throughout the development process with regular milestones and
+                                    deliverables. </strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                what is your development process?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>
+                                    <i class="fa-solid fa-check me-2" style="color: #ee7537 ;"></i> We follow an
+                                    agile development methodology that includes <br>
+
+                                    <i class="fa-solid fa-check me-2" style="color: #ee7537 ;"></i> Discovery &
+                                    Planning: Understanding your requirements and goals <br>
+                                    <i class="fa-solid fa-check me-2" style="color: #ee7537 ;"></i> Design: Creating
+                                    wireframes and visual designs <br>
+                                    <i class="fa-solid fa-check me-2" style="color: #ee7537 ;"></i> Development:
+                                    Building your solution with regular updates <br>
+                                    <i class="fa-solid fa-check me-2" style="color: #ee7537 ;"></i> Testing:
+                                    Rigorous QA and user testing <br>
+                                    <i class="fa-solid fa-check me-2" style="color: #ee7537 ;"></i> Deployment:
+                                    Launch and ongoing support</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Do you provid ongoing support and maintenance?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Yes! We offer comprehensive support and maintenance packages to ensure your
+                                    solution
+                                    continues to perform <br> optimally. This includes bug fixes, security updates,
+                                    performance
+                                    optimization, feature enhancements, and <br> technical support. We can customize
+                                    a
+                                    maintenance plan that fits your specific needs and budget.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What technologies do you work with?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong> We work with cutting-edge technologies across the full stack. For frontend,
+                                    we use <br>
+                                    React, Vue.js, Angular, and Next.js. Our backend expertise includes Node.js,
+                                    Python,<br>
+                                    Golang, and Java. We're proficient in cloud platforms like AWS, Azure, and
+                                    Google <br>Cloud,
+                                    and work with both SQL and NoSQL databases. We always choose the best <br>
+                                    technology stack
+                                    for your specific project requirements </strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                How do you ensure project security and data privacy?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong> Security is our top priority. We implement industry-standard security
+                                    practices
+                                    including encryption, secure <br> authentication, regular security audits, and
+                                    compliance
+                                    with data protection regulations (GDPR, HIPAA, etc.). All <br> our developers
+                                    sign NDAs, and
+                                    we use secure development practices throughout the entire project lifecycle. We
+                                    also
+                                    provide security documentation and training for your team.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- \//////////////////////////////////////sec6///////////////////// -->
+        <div class="sec6" id="sec6">
+
+            <br>
+
+            <br>
+            <span class="titlee  text-center"><i class="fa-solid fa-rocket"></i> Let's Start Your Journey</span>
+
+            <br>
+            <h2 class="mb-4 text-center">
+                <p>Ready to <br>Transform?</p>
+            </h2>
+            <p class="discript mx-auto mb-5  text-center">Take the first step towards digital excellence. Our
+                experts are ready to turn <br> your vision into reality.
+            </p>
+            <div class="containe d-flex justify-content-strat align-items-center">
+
+                <div class="left">
+                    <form action="" class="p-3">
+                        <br>
+                        <h3>Get Your Free Consultation</h3>
+                        <p>Fill out the form and we'll get back to you within 24 hours with a personalized.</p>
+                        <br>
+                        <div class="d-flex gap-5">
+
+                            <div class="name ">
+                                <label for="name" class="d-block">Frist Name*</label>
+                                <input type="text" id="name" name="name" required="required  " placeholder="First name">
+                            </div>
+                            <div class="name ">
+                                <label for="last name" class="d-block">Laset Name*</label>
+                                <input type="text" id="last name" required="required " placeholder="Last name">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-flex gap-5">
+
+                            <div class="name ">
+                                <label for="email" class="d-block">Email Address*</label>
+                                <input type="email" id="email" name="email" required="required " placeholder="Email">
+                            </div>
+                            <div class="name ">
+                                <label for="campany" class="d-block">Campany*</label>
+                                <input type="text" id="campany" required="required " placeholder="campany name">
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="select w-100">
+                            <label for="select" class="d-block">Primary Interest *</label>
+                            <select name="mejor" id="select" class="select">
+                                <option value=""> choose Your Foucs Area </option>
+                                <option value=""> Web Development & Design</option>
+                                <option value=""> Mobile Application</option>
+                                <option value=""> Ai & Machine learning</option>
+                                <option value=""> Cloud & infrastructure</option>
+                                <option value=""> Digital Markting & SEO</option>
+                                <option value=""> Complete Digital Transformation </option>
+
+                            </select>
+
+                        </div>
+                        <br>
+                        <div class="select w-100">
+                            <label for="select" class="d-block">Time Line *</label>
+                            <select name="mejor" id="select" class="select">
+                                <option value=""> When Do You Want Start? </option>
+
+                                <option value=""> Within 1 week</option>
+                                <option value=""> Within 1 Month</option>
+                                <option value=""> Within 2 Month</option>
+                                <option value=""> Within 3 Month</option>
+                                <option value=""> Within 4 Month</option>
+                                <option value=""> Within 5 Month</option>
+
+
+                            </select>
+
+                        </div>
+                        <br>
+                        <div class="pay">
+                            <label for="pay" class="d-block mb-2">Project Budget Range</label>
+                            <div class="d-flex justify-content-start align-items-center gap-4">
+                                <button class="text-center"> <span class="d-block price ">$25K - $50K</span> <span
+                                        class="stat">Growth</span></button>
+                                <button class="text-center"> <span class="d-block price ">$25K - $50K</span> <span
+                                        class="stat">Growth</span></button>
+                                <button class="text-center"> <span class="d-block price ">$25K - $50K</span> <span
+                                        class="stat">Growth</span></button>
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="area">
+                            <label for="text-area" class="d-block mb-2">Tell us about your project</label>
+                            <textarea name="our project " id="text-area"
+                                placeholder="Discribe your project goals ,chalanges,and what success like for you...."></textarea>
+                        </div>
+                        <div class="check d-flex justify-content-start align-items-center gap-2">
+                            <input type="checkbox" id="agree"> <label for="agree">I agree to receive communications
+                                and accept the <span> Privacy Policy </span> </label>
+                        </div>
+                        <br>
+                        <div class="sup text-white">
+                            <button class="text-white">Get My Free Consultation <i
+                                    class="fa-solid fa-arrow-right-long ms-2"></i>
+                            </button>
+                        </div>
+
+
+                </div>
+                <div class="right p-5">
+                    <h3>Why Choose Clarity?</h3>
+                    <br>
+                    <div class="time d-flex justify-content-start align-items-center gap-3">
+                        <div class="icon">
+                            <i class="fa-solid fa-clock fa-1x  "></i>
+                        </div>
+                        <div class="dis">
+                            <span>24-Hour Response</span>
+                            <p>Quick turnaround on all inquiries with <br> detailed project analysis</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="time d-flex justify-content-start align-items-center gap-3">
+                        <div class="icon">
+                            <i class="fa-solid fa-user" "></i>
+                            </div>
+                            <div class=" dis">
+                                <span>Expert Team</span>
+                                <p>150+ certified professionals with <br> 8+ years experience</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="time d-flex justify-content-start align-items-center gap-3">
+                        <div class="icon">
+                            <i class="fa-solid fa-brain fa-1x  "></i>
+                        </div>
+                        <div class="dis">
+                            <span>100% Satisfaction</span>
+                            <p>Money-back guarantee if you're not <br> completely satisfied</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <hr>
+                    <div class="contact">
+                        <h6> Direct Contact</h6>
+                        <br>
+                        <i class="fa-solid fa-phone me-2"></i><span>+1 (555) 123-4567 </span>
+                        <br>
+                        <br>
+                        <i class="fa-solid fa-location-dot me-2"></i> <span> San Francisco, CA</span>
+                        <br>
+                        <br>
+                        <i class="fa-solid fa-envelope me-2"></i><span>hello@clarity.com </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+    </main>
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

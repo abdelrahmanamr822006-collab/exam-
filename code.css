@@ -1,0 +1,195 @@
+/* Media Queries for Responsive Design */
+
+/* Small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    .sec1 .home{
+        display: block !important;
+    }
+    .sec1 .right{
+    width: 100%;
+
+   }
+   .sec1 .left {
+    width: 100%;
+
+   }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+    .sec1 .left,
+    .sec1 .right,
+    .sec6 .containe .left,
+    .sec6 .containe .right {
+        width: 100% !important;
+    }
+
+    .sec1 .right {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+
+    .sec6 .containe {
+        flex-direction: column !important;
+    }
+
+    .sec6 .right {
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 20px !important;
+        height: auto !important;
+        padding: 20px !important;
+    }
+
+    .sec6 .containe .left {
+        border-top-right-radius: 20px !important;
+    }
+
+    /* Additional adjustments for medium screens */
+    .sec1 h1 {
+        font-size: 50px !important;
+    }
+
+    .sec2 .row .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .sec3 .row .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .sec6 .containe .left input {
+        width: 100% !important;
+    }
+
+    .sec6 .containe .left select {
+        width: 100% !important;
+    }
+
+    .sec6 .containe .left .area textarea {
+        width: 100% !important;
+    }
+
+    .sec6 .containe .left .sup button {
+        width: 100% !important;
+    }
+}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+    .sec1 .left,
+    .sec1 .right,
+    .sec6 .containe .left,
+    .sec6 .containe .right {
+        width: 50% !important;
+    }
+
+    .sec1 .right {
+        margin-left: 20px !important;
+    }
+
+    .sec6 .containe {
+        flex-direction: row !important;
+    }
+
+    .sec6 .right {
+        border-top-right-radius: 20px !important;
+        border-top-left-radius: 0 !important;
+        height: 975px !important;
+    }
+
+    .sec6 .containe .left {
+        border-top-right-radius: 0 !important;
+    }
+
+    /* Additional adjustments for large screens */
+    .sec1 h1 {
+        font-size: 55px !important;
+    }
+
+    .sec2 .row .col-lg-4 {
+        margin-bottom: 0;
+    }
+
+    .sec3 .row .col-md-4 {
+        margin-bottom: 0;
+    }
+
+    .sec6 .containe .left input {
+        width: 250px !important;
+    }
+
+    .sec6 .containe .left select {
+        width: 545px !important;
+    }
+
+    .sec6 .containe .left .area textarea {
+        width: 545px !important;
+    }
+
+    .sec6 .containe .left .sup button {
+        width: 545px !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) - Original widths */
+@media (min-width: 1200px) {
+    .sec1 .left {
+        width: 45% !important;
+    }
+
+    .sec1 .right {
+        width: 45% !important;
+        margin-left: 90px !important;
+    }
+
+    .sec6 .containe .left {
+        width: 60% !important;
+    }
+
+    .sec6 .containe .right {
+        /* Implicit width: 40% */
+    }
+
+    .sec6 .containe {
+        flex-direction: row !important;
+    }
+
+    .sec6 .right {
+        border-top-right-radius: 20px !important;
+        border-top-left-radius: 0 !important;
+        height: 975px !important;
+    }
+
+    .sec6 .containe .left {
+        border-top-right-radius: 20px !important;
+    }
+
+    /* Original sizes */
+    .sec1 h1 {
+        font-size: 60px !important;
+    }
+
+    .sec2 .row .col-lg-4 {
+        margin-bottom: 0;
+    }
+
+    .sec3 .row .col-md-4 {
+        margin-bottom: 0;
+    }
+
+    .sec6 .containe .left input {
+        width: 250px !important;
+    }
+
+    .sec6 .containe .left select {
+        width: 545px !important;
+    }
+
+    .sec6 .containe .left .area textarea {
+        width: 545px !important;
+    }
+
+    .sec6 .containe .left .sup button {
+        width: 545px !important;
+    }
+}
